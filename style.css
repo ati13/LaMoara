@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span {
+    color: blueviolet;
+
+}
+
+.blog-heading h3 {
+    font-size: 2.4rem;
+    color: brown;
+    font-weight: 600;
+}
+
+.blog-img img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#Bikes {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 5px solid rgb(rgb(109, 14, 14), rgb(202, 245, 202), rgb(20, 20, 141));
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: fit-content;
+    background-color: rgb(230, 179, 118);
+    border: 1px solid #ececec;
+    margin: 30px;
+}
